@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>JMT Lab FAQ</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>4 - Data Visualization · JMT Lab FAQ</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="Offload the brain.
 "><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Kartik Pradeepan"><link rel="stylesheet" href="/assets/gitbook/style.css">
 <link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-fontsettings/website.css">
@@ -23,9 +23,11 @@
 
 
 
+            <link rel="prev" href="/jekyll/2023-01-03-Spike-Sorting.html" />
+        
 
         
-            <link rel="next" href="/jekyll/2023-01-01-Onboarding.html" />
+            <link rel="next" href="/jekyll/2023-01-05-Writing-papers.html" />
         
     </head>
     <body>
@@ -140,12 +142,15 @@
                         </li>
                     
                         
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-01-04-Data-visualization.html">
+                        <li class="chapter active" data-level="1.2" data-path="/jekyll/2023-01-04-Data-visualization.html">
                         
                             <a href="/jekyll/2023-01-04-Data-visualization.html" onclick="pageScrollToTop(this)">
                                 4 - Data Visualization
                             </a>
                             
+                                
+                                    <ul><li><a href="#choosing-a-visualization-type" onclick="mobilePageScrollToAnchor(this)" >Choosing a visualization type</a></li><li><a href="#elements-of-charts" onclick="mobilePageScrollToAnchor(this)" >Elements of charts</a><ul><li><a href="#layout-panels-subplots-facets" onclick="mobilePageScrollToAnchor(this)" >Layout (panels, subplots, facets)</a></li><li><a href="#aspect-ratio" onclick="mobilePageScrollToAnchor(this)" >Aspect ratio</a></li><li><a href="#lines" onclick="mobilePageScrollToAnchor(this)" >Lines</a></li><li><a href="#points" onclick="mobilePageScrollToAnchor(this)" >Points</a></li><li><a href="#colours" onclick="mobilePageScrollToAnchor(this)" >Colours</a></li><li><a href="#axes" onclick="mobilePageScrollToAnchor(this)" >Axes</a></li><li><a href="#symbols" onclick="mobilePageScrollToAnchor(this)" >Symbols</a></li><li><a href="#legends" onclick="mobilePageScrollToAnchor(this)" >Legends</a></li><li><a href="#orientation" onclick="mobilePageScrollToAnchor(this)" >Orientation</a></li><li><a href="#font" onclick="mobilePageScrollToAnchor(this)" >Font</a></li></ul></li><li><a href="#creating-raster-plots" onclick="mobilePageScrollToAnchor(this)" >Creating raster plots</a></li></ul>
+
                                 
                             
                         </li>
@@ -187,7 +192,7 @@
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         
-                            <a href="." >JMT Lab FAQ</a>
+                            <a href="." >4 - Data Visualization</a>
                         
                     </h1>
                 </div>
@@ -200,29 +205,52 @@
             <div class="search-noresults">
                 <section class="normal markdown-section">
                     
-                        <h1 id="">JMT Lab FAQ</h1>
+                        <h1 id="/jekyll/Data visualization">4 - Data Visualization</h1>
                     
 
-                    <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+                    <p>Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.</p>
 
-<div class="container">
-  <h1>404</h1>
+<h2 id="choosing-a-visualization-type">Choosing a visualization type</h2>
+<p>To successfully convey yo</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<h2 id="elements-of-charts">Elements of charts</h2>
+
+<h3 id="layout-panels-subplots-facets">Layout (panels, subplots, facets)</h3>
+
+<h3 id="aspect-ratio">Aspect ratio</h3>
+
+<h3 id="lines">Lines</h3>
+
+<h3 id="points">Points</h3>
+
+<h3 id="colours">Colours</h3>
+
+<h3 id="axes">Axes</h3>
+
+<h3 id="symbols">Symbols</h3>
+
+<h3 id="legends">Legends</h3>
+
+<h3 id="orientation">Orientation</h3>
+
+<h3 id="font">Font</h3>
+
+<h1 id="examples">Examples</h1>
+<h2 id="creating-raster-plots">Creating raster plots</h2>
+<p><img src="..../../../_posts/img/raster.png" alt="img" /></p>
+<details>
+    <summary>Python</summary>
+    
+    ```python
+    plt.figure(figsize=(10,5))
+    plt.rcParams.update({'font.size': 12})
+    plt.rc('axes', linewidth=1)
+    plt.eventplot(raster, color='black', linelengths=0.5, linewidths=0.75, alpha=0.35);
+    plt.xlim(150, 200)
+    plt.ylabel("Channels")
+    plt.xlabel("Time (s)")
+    ```
+</details>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -278,12 +306,14 @@ window.MathJax = {
     }
 </script>
 
-<a href="/" class="navigation navigation-pre navigation-unique">
-                        <i class="fa"></i>
-                    </a>
+
+                        <a href="/jekyll/2023-01-03-Spike-Sorting.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 3- Spike Sorting">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
 
                     
-                        <a href="/jekyll/2023-01-01-Onboarding.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 1 - Onboarding">
+                        <a href="/jekyll/2023-01-05-Writing-papers.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 5 - Writing your first paper">
                             <i class="fa fa-angle-right"></i>
                         </a>
                     
@@ -299,14 +329,12 @@ window.MathJax = {
         "level": "1.1",
         "depth": 1,
         
-
-        
         "next": {
-            "title": "1 - Onboarding",
+            "title": "5 - Writing your first paper",
             "level": "1.2",
             "depth": 1,
-            "path": "_posts/2023-01-01-Onboarding.md",
-            "ref": "_posts/2023-01-01-Onboarding.md",
+            "path": "_posts/2023-01-05-Writing papers.md",
+            "ref": "_posts/2023-01-05-Writing papers.md",
             "articles": []
         },
         
@@ -395,8 +423,8 @@ window.MathJax = {
         "gitbook": "*"
     },
     "file": {
-        "path": "404.html",
-        "mtime": "",
+        "path": "_posts/2023-01-04-Data visualization.md",
+        "mtime": "2023-01-04 00:00:00 -0500",
         "type": "markdown"
     },
     "gitbook": {

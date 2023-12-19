@@ -1,5 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-14T13:16:55-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JMT Lab FAQ</title><subtitle>Offload the brain.
-</subtitle><author><name>Kartik Pradeepan</name></author><entry><title type="html">2 - Recommended Reading</title><link href="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html" rel="alternate" type="text/html" title="2 - Recommended Reading" /><published>2023-01-02T00:00:00-05:00</published><updated>2023-01-02T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Recommended%20Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html"><![CDATA[<h4 id="from-the-neuron-doctrine-to-neural-networks-pdf">From the neuron doctrine to neural networks [<a href="../assets/pdf/Yuste_2015.pdf">pdf</a>]</h4>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T16:07:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JMT Lab FAQ</title><subtitle>Offload the brain.
+</subtitle><author><name>Kartik Pradeepan</name></author><entry><title type="html">6 - Making and presenting posters</title><link href="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html" rel="alternate" type="text/html" title="6 - Making and presenting posters" /><published>2023-01-06T00:00:00-05:00</published><updated>2023-01-06T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Making%20and%20presenting%20posters</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html"><![CDATA[]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">5 - Writing your first paper</title><link href="http://localhost:4000/jekyll/2023-01-05-Writing-papers.html" rel="alternate" type="text/html" title="5 - Writing your first paper" /><published>2023-01-05T00:00:00-05:00</published><updated>2023-01-05T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Writing%20papers</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-05-Writing-papers.html"><![CDATA[]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">4 - Data Visualization</title><link href="http://localhost:4000/jekyll/2023-01-04-Data-visualization.html" rel="alternate" type="text/html" title="4 - Data Visualization" /><published>2023-01-04T00:00:00-05:00</published><updated>2023-01-04T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Data%20visualization</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-04-Data-visualization.html"><![CDATA[<p>Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.</p>
+
+<h2 id="choosing-a-visualization-type">Choosing a visualization type</h2>
+<p>To successfully convey yo</p>
+
+<h2 id="elements-of-charts">Elements of charts</h2>
+
+<h3 id="layout-panels-subplots-facets">Layout (panels, subplots, facets)</h3>
+
+<h3 id="aspect-ratio">Aspect ratio</h3>
+
+<h3 id="lines">Lines</h3>
+
+<h3 id="points">Points</h3>
+
+<h3 id="colours">Colours</h3>
+
+<h3 id="axes">Axes</h3>
+
+<h3 id="symbols">Symbols</h3>
+
+<h3 id="legends">Legends</h3>
+
+<h3 id="orientation">Orientation</h3>
+
+<h3 id="font">Font</h3>
+
+<h1 id="examples">Examples</h1>
+<h2 id="creating-raster-plots">Creating raster plots</h2>
+<p><img src="..../../../_posts/img/raster.png" alt="img" /></p>
+<details>
+    <summary>Python</summary>
+    
+    ```python
+    plt.figure(figsize=(10,5))
+    plt.rcParams.update({'font.size': 12})
+    plt.rc('axes', linewidth=1)
+    plt.eventplot(raster, color='black', linelengths=0.5, linewidths=0.75, alpha=0.35);
+    plt.xlim(150, 200)
+    plt.ylabel("Channels")
+    plt.xlabel("Time (s)")
+    ```
+</details>]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.]]></summary></entry><entry><title type="html">3- Spike Sorting</title><link href="http://localhost:4000/jekyll/2023-01-03-Spike-Sorting.html" rel="alternate" type="text/html" title="3- Spike Sorting" /><published>2023-01-03T00:00:00-05:00</published><updated>2023-01-03T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Spike%20Sorting</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-03-Spike-Sorting.html"><![CDATA[<h1 id="what-is-spike-sorting">What is spike sorting?</h1>
+
+<h1 id="what-does-a-good-unit-look-like">What does a good unit look like?</h1>
+
+<h1 id="spike-sorting-methods">Spike Sorting Methods</h1>
+<h2 id="plexon-offline-sorter">Plexon Offline Sorter</h2>
+
+<h2 id="kilosort">Kilosort</h2>]]></content><author><name>Megan Roussy</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What is spike sorting?]]></summary></entry><entry><title type="html">2 - Recommended Reading</title><link href="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html" rel="alternate" type="text/html" title="2 - Recommended Reading" /><published>2023-01-02T00:00:00-05:00</published><updated>2023-01-02T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Recommended%20Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html"><![CDATA[<h4 id="from-the-neuron-doctrine-to-neural-networks-pdf">From the neuron doctrine to neural networks [<a href="../assets/pdf/Yuste_2015.pdf">pdf</a>]</h4>
 <h4 id="neural-correlations-population-coding-and-computation-pdf">Neural correlations, population coding and computation [<a href="../assets/pdf/Averbeck+Latham+Pouget_2006.pdf">pdf</a>]</h4>
 <h4 id="measuring-and-interpreting-neuronal-correlation-pdf">Measuring and interpreting neuronal correlation [<a href="../assets/pdf/Cohen&amp;Kohn_2011.pdf">pdf</a>]</h4>
 <h4 id="engrams-and-circuits-crucial-for-systems-consolidation-of-a-memory-pdf">Engrams and circuits crucial for systems consolidation of a memory [<a href="../assets/pdf/Engrams and circuits crucial for systems consolidation of a memory-Tonegawa.pdf">pdf</a>]</h4>
