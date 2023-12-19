@@ -1,8 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T16:07:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JMT Lab FAQ</title><subtitle>Offload the brain.
-</subtitle><author><name>Kartik Pradeepan</name></author><entry><title type="html">6 - Making and presenting posters</title><link href="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html" rel="alternate" type="text/html" title="6 - Making and presenting posters" /><published>2023-01-06T00:00:00-05:00</published><updated>2023-01-06T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Making%20and%20presenting%20posters</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html"><![CDATA[]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">5 - Writing your first paper</title><link href="http://localhost:4000/jekyll/2023-01-05-Writing-papers.html" rel="alternate" type="text/html" title="5 - Writing your first paper" /><published>2023-01-05T00:00:00-05:00</published><updated>2023-01-05T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Writing%20papers</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-05-Writing-papers.html"><![CDATA[]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">4 - Data Visualization</title><link href="http://localhost:4000/jekyll/2023-01-04-Data-visualization.html" rel="alternate" type="text/html" title="4 - Data Visualization" /><published>2023-01-04T00:00:00-05:00</published><updated>2023-01-04T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Data%20visualization</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-04-Data-visualization.html"><![CDATA[<p>Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T17:37:00-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JMT Lab FAQ</title><subtitle>Offload the brain.
+</subtitle><author><name>Kartik Pradeepan</name></author><entry><title type="html">6 - Making and presenting posters</title><link href="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html" rel="alternate" type="text/html" title="6 - Making and presenting posters" /><published>2023-01-06T00:00:00-05:00</published><updated>2023-01-06T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Making%20and%20presenting%20posters</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html"><![CDATA[<h1 id="what-is-the-purpose-of-an-academic-poster">What is the purpose of an academic poster?</h1>
+<blockquote>
+  <p>“This is basically your paper.”<br />
+-Julio to Kartik (sometime in November 2022)</p>
+</blockquote>
+
+<p>While running by my poster <em>in prep</em> for SfN 2022, Julio told me this and I wish I knew much earlier. Your poster (if it’s not already published) is preparation for writing your paper. It is a tool to organize your story.</p>
+
+<p>An academic poster serves multiple purposes for trainees at different stages:</p>
+<ol>
+  <li>It’s an opportunity to receive feedback on your paradigm, methodology, analysis, and or findings. While we’re deep in the day-to-day of research, it can sometimes be difficult to see the glaring issues that someone else may have.</li>
+  <li>It’s an opportunity to publicize your amazing research!</li>
+  <li>It’s an opportunity to network!!</li>
+</ol>
+
+<p>While I was a younger trainee, the feedback was useful. Now that I’m wrapping up my PhD (at the time of writing this), the latter two points are the primary reasons why presenting posters are so important. Depending on how you present your work, you might find new collaborators, people who want to use your paradigm or data analysis, or best of all future employers (either academic or industry).</p>
+
+<h1 id="general-design-principles">General design principles</h1>
+<ol>
+  <li>
+    <p><strong>A poster is a prop - not a paper</strong></p>
+  </li>
+  <li>
+    <p><strong>Be selective of your data</strong></p>
+  </li>
+  <li>
+    <p><strong>Utilize Gestalt principles</strong></p>
+  </li>
+</ol>
+
+<p>…</p>
+
+<h1 id="presenting-posters">Presenting posters</h1>
+<ol>
+  <li>
+    <p><strong>Be welcoming</strong></p>
+
+    <p>Although many conferences only require you to be at your poster for a 1-2 hour window of the entire poster session, do your best to stay for the entirety of it.</p>
+
+    <p>Stand at the side of your poster.</p>
+  </li>
+  <li>
+    <p><strong>Engage your audience</strong></p>
+  </li>
+  <li>
+    <p><strong>Know your elevator pitch</strong></p>
+  </li>
+  <li>
+    <p><strong>Start a conversation</strong></p>
+  </li>
+  <li>
+    <p><strong>Tell a story</strong></p>
+  </li>
+  <li>
+    <p><strong>Practice</strong></p>
+  </li>
+</ol>
+
+<p>…</p>
+
+<h2 id="useful-resources">Useful resources</h2>
+<p>http://mkweb.bcgsc.ca/poster.design/</p>
+
+<p>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1955747/</p>]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What is the purpose of an academic poster? “This is basically your paper.” -Julio to Kartik (sometime in November 2022)]]></summary></entry><entry><title type="html">5 - Writing your first paper</title><link href="http://localhost:4000/jekyll/2023-01-05-Writing-papers.html" rel="alternate" type="text/html" title="5 - Writing your first paper" /><published>2023-01-05T00:00:00-05:00</published><updated>2023-01-05T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Writing%20papers</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-05-Writing-papers.html"><![CDATA[<h1 id="choosing-a-journal">Choosing a journal</h1>
+
+<h1 id="title">Title</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<h1 id="methods">Methods</h1>
+
+<h1 id="results">Results</h1>
+
+<h1 id="discussion">Discussion</h1>
+
+<h1 id="supplemental">Supplemental</h1>
+
+<h1 id="cover-letter-to-editor">Cover letter to editor</h1>
+
+<h1 id="responding-to-reviewers">Responding to reviewers</h1>]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Choosing a journal]]></summary></entry><entry><title type="html">4 - Data Visualization</title><link href="http://localhost:4000/jekyll/2023-01-04-Data-visualization.html" rel="alternate" type="text/html" title="4 - Data Visualization" /><published>2023-01-04T00:00:00-05:00</published><updated>2023-01-04T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Data%20visualization</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-04-Data-visualization.html"><![CDATA[<p>Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.</p>
 
 <h2 id="choosing-a-visualization-type">Choosing a visualization type</h2>
-<p>To successfully convey yo</p>
+<p>The purpose of data visualization is to emphasize observations that would not otherwise jump out when looking at a list of values to enable people to quickly and easily grasp your data.</p>
+
+<p><strong>What is your data trying to communicate?</strong>
+Are you trying to convey differences between the distribution of two groups? Change over time? Correlation between between two variables? A pattern? Individual or group differences?</p>
+
+<p><strong>What kind of data do you have?</strong> Numerical? Categorical? Continuous? Discrete?</p>
+
+<p><strong>Who is the audience?</strong> Experts in your field? Outsiders to the field? Lay audience?</p>
 
 <h2 id="elements-of-charts">Elements of charts</h2>
 
@@ -26,29 +112,30 @@
 
 <h3 id="font">Font</h3>
 
+<h3 id="saving-your-plot">Saving your plot</h3>
+
 <h1 id="examples">Examples</h1>
 <h2 id="creating-raster-plots">Creating raster plots</h2>
-<p><img src="..../../../_posts/img/raster.png" alt="img" /></p>
+<p><img src="../../../_posts/img/raster.png" alt="img" /></p>
 <details>
-    <summary>Python</summary>
-    
-    ```python
-    plt.figure(figsize=(10,5))
-    plt.rcParams.update({'font.size': 12})
-    plt.rc('axes', linewidth=1)
-    plt.eventplot(raster, color='black', linelengths=0.5, linewidths=0.75, alpha=0.35);
-    plt.xlim(150, 200)
-    plt.ylabel("Channels")
-    plt.xlabel("Time (s)")
-    ```
-</details>]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.]]></summary></entry><entry><title type="html">3- Spike Sorting</title><link href="http://localhost:4000/jekyll/2023-01-03-Spike-Sorting.html" rel="alternate" type="text/html" title="3- Spike Sorting" /><published>2023-01-03T00:00:00-05:00</published><updated>2023-01-03T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Spike%20Sorting</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-03-Spike-Sorting.html"><![CDATA[<h1 id="what-is-spike-sorting">What is spike sorting?</h1>
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">plt</span><span class="p">.</span><span class="nf">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">.</span><span class="nf">update</span><span class="p">({</span><span class="sh">'</span><span class="s">font.size</span><span class="sh">'</span><span class="p">:</span> <span class="mi">12</span><span class="p">})</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">rc</span><span class="p">(</span><span class="sh">'</span><span class="s">axes</span><span class="sh">'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">eventplot</span><span class="p">(</span><span class="n">raster</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="sh">'</span><span class="s">black</span><span class="sh">'</span><span class="p">,</span> <span class="n">linelengths</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.35</span><span class="p">);</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">xlim</span><span class="p">(</span><span class="mi">150</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">ylabel</span><span class="p">(</span><span class="sh">"</span><span class="s">Channels</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">xlabel</span><span class="p">(</span><span class="sh">"</span><span class="s">Time (s)</span><span class="sh">"</span><span class="p">)</span></code></pre></figure>
+
+</details>]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.]]></summary></entry><entry><title type="html">3 - Spike Sorting</title><link href="http://localhost:4000/jekyll/2023-01-03-Spike-Sorting.html" rel="alternate" type="text/html" title="3 - Spike Sorting" /><published>2023-01-03T00:00:00-05:00</published><updated>2023-01-03T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Spike%20Sorting</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-03-Spike-Sorting.html"><![CDATA[<h1 id="what-is-spike-sorting">What is spike sorting?</h1>
 
 <h1 id="what-does-a-good-unit-look-like">What does a good unit look like?</h1>
 
 <h1 id="spike-sorting-methods">Spike Sorting Methods</h1>
 <h2 id="plexon-offline-sorter">Plexon Offline Sorter</h2>
 
-<h2 id="kilosort">Kilosort</h2>]]></content><author><name>Megan Roussy</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What is spike sorting?]]></summary></entry><entry><title type="html">2 - Recommended Reading</title><link href="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html" rel="alternate" type="text/html" title="2 - Recommended Reading" /><published>2023-01-02T00:00:00-05:00</published><updated>2023-01-02T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Recommended%20Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html"><![CDATA[<h4 id="from-the-neuron-doctrine-to-neural-networks-pdf">From the neuron doctrine to neural networks [<a href="../assets/pdf/Yuste_2015.pdf">pdf</a>]</h4>
+<h2 id="kilosort">Kilosort</h2>]]></content><author><name>Kartik Pradeepan</name></author><category term="Jekyll" /><summary type="html"><![CDATA[What is spike sorting?]]></summary></entry><entry><title type="html">2 - Recommended Reading</title><link href="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html" rel="alternate" type="text/html" title="2 - Recommended Reading" /><published>2023-01-02T00:00:00-05:00</published><updated>2023-01-02T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Recommended%20Reading</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-02-Recommended-Reading.html"><![CDATA[<h4 id="from-the-neuron-doctrine-to-neural-networks-pdf">From the neuron doctrine to neural networks [<a href="../assets/pdf/Yuste_2015.pdf">pdf</a>]</h4>
 <h4 id="neural-correlations-population-coding-and-computation-pdf">Neural correlations, population coding and computation [<a href="../assets/pdf/Averbeck+Latham+Pouget_2006.pdf">pdf</a>]</h4>
 <h4 id="measuring-and-interpreting-neuronal-correlation-pdf">Measuring and interpreting neuronal correlation [<a href="../assets/pdf/Cohen&amp;Kohn_2011.pdf">pdf</a>]</h4>
 <h4 id="engrams-and-circuits-crucial-for-systems-consolidation-of-a-memory-pdf">Engrams and circuits crucial for systems consolidation of a memory [<a href="../assets/pdf/Engrams and circuits crucial for systems consolidation of a memory-Tonegawa.pdf">pdf</a>]</h4>

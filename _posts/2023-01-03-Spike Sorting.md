@@ -1,6 +1,6 @@
 ---
-title: 3- Spike Sorting
-author: Megan Roussy
+title: 3 - Spike Sorting
+author: Kartik Pradeepan
 category: Jekyll
 layout: post
 ---

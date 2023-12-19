@@ -5,3 +5,20 @@ category: Jekyll
 layout: post
 ---
 
+# Choosing a journal
+
+# Title
+
+# Introduction
+
+# Methods
+
+# Results
+
+# Discussion
+
+# Supplemental
+
+# Cover letter to editor
+
+# Responding to reviewers

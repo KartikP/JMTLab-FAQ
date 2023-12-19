@@ -134,7 +134,7 @@
                         <li class="chapter" data-level="1.1" data-path="/jekyll/2023-01-03-Spike-Sorting.html">
                         
                             <a href="/jekyll/2023-01-03-Spike-Sorting.html" onclick="pageScrollToTop(this)">
-                                3- Spike Sorting
+                                3 - Spike Sorting
                             </a>
                             
                                 
@@ -149,7 +149,7 @@
                             </a>
                             
                                 
-                                    <ul><li><a href="#choosing-a-visualization-type" onclick="mobilePageScrollToAnchor(this)" >Choosing a visualization type</a></li><li><a href="#elements-of-charts" onclick="mobilePageScrollToAnchor(this)" >Elements of charts</a><ul><li><a href="#layout-panels-subplots-facets" onclick="mobilePageScrollToAnchor(this)" >Layout (panels, subplots, facets)</a></li><li><a href="#aspect-ratio" onclick="mobilePageScrollToAnchor(this)" >Aspect ratio</a></li><li><a href="#lines" onclick="mobilePageScrollToAnchor(this)" >Lines</a></li><li><a href="#points" onclick="mobilePageScrollToAnchor(this)" >Points</a></li><li><a href="#colours" onclick="mobilePageScrollToAnchor(this)" >Colours</a></li><li><a href="#axes" onclick="mobilePageScrollToAnchor(this)" >Axes</a></li><li><a href="#symbols" onclick="mobilePageScrollToAnchor(this)" >Symbols</a></li><li><a href="#legends" onclick="mobilePageScrollToAnchor(this)" >Legends</a></li><li><a href="#orientation" onclick="mobilePageScrollToAnchor(this)" >Orientation</a></li><li><a href="#font" onclick="mobilePageScrollToAnchor(this)" >Font</a></li></ul></li><li><a href="#creating-raster-plots" onclick="mobilePageScrollToAnchor(this)" >Creating raster plots</a></li></ul>
+                                    <ul><li><a href="#choosing-a-visualization-type" onclick="mobilePageScrollToAnchor(this)" >Choosing a visualization type</a></li><li><a href="#elements-of-charts" onclick="mobilePageScrollToAnchor(this)" >Elements of charts</a><ul><li><a href="#layout-panels-subplots-facets" onclick="mobilePageScrollToAnchor(this)" >Layout (panels, subplots, facets)</a></li><li><a href="#aspect-ratio" onclick="mobilePageScrollToAnchor(this)" >Aspect ratio</a></li><li><a href="#lines" onclick="mobilePageScrollToAnchor(this)" >Lines</a></li><li><a href="#points" onclick="mobilePageScrollToAnchor(this)" >Points</a></li><li><a href="#colours" onclick="mobilePageScrollToAnchor(this)" >Colours</a></li><li><a href="#axes" onclick="mobilePageScrollToAnchor(this)" >Axes</a></li><li><a href="#symbols" onclick="mobilePageScrollToAnchor(this)" >Symbols</a></li><li><a href="#legends" onclick="mobilePageScrollToAnchor(this)" >Legends</a></li><li><a href="#orientation" onclick="mobilePageScrollToAnchor(this)" >Orientation</a></li><li><a href="#font" onclick="mobilePageScrollToAnchor(this)" >Font</a></li><li><a href="#saving-your-plot" onclick="mobilePageScrollToAnchor(this)" >Saving your plot</a></li></ul></li><li><a href="#creating-raster-plots" onclick="mobilePageScrollToAnchor(this)" >Creating raster plots</a></li></ul>
 
                                 
                             
@@ -211,7 +211,14 @@
                     <p>Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and projections, data visualization provides an accessible way to see and understand trends, outliers, and patterns in data. In storytelling, this translates to a narrative that is driven by facts and figures, presented in a way that is both comprehensive and engaging.</p>
 
 <h2 id="choosing-a-visualization-type">Choosing a visualization type</h2>
-<p>To successfully convey yo</p>
+<p>The purpose of data visualization is to emphasize observations that would not otherwise jump out when looking at a list of values to enable people to quickly and easily grasp your data.</p>
+
+<p><strong>What is your data trying to communicate?</strong>
+Are you trying to convey differences between the distribution of two groups? Change over time? Correlation between between two variables? A pattern? Individual or group differences?</p>
+
+<p><strong>What kind of data do you have?</strong> Numerical? Categorical? Continuous? Discrete?</p>
+
+<p><strong>Who is the audience?</strong> Experts in your field? Outsiders to the field? Lay audience?</p>
 
 <h2 id="elements-of-charts">Elements of charts</h2>
 
@@ -235,21 +242,22 @@
 
 <h3 id="font">Font</h3>
 
+<h3 id="saving-your-plot">Saving your plot</h3>
+
 <h1 id="examples">Examples</h1>
 <h2 id="creating-raster-plots">Creating raster plots</h2>
-<p><img src="..../../../_posts/img/raster.png" alt="img" /></p>
+<p><img src="../../../_posts/img/raster.png" alt="img" /></p>
 <details>
-    <summary>Python</summary>
-    
-    ```python
-    plt.figure(figsize=(10,5))
-    plt.rcParams.update({'font.size': 12})
-    plt.rc('axes', linewidth=1)
-    plt.eventplot(raster, color='black', linelengths=0.5, linewidths=0.75, alpha=0.35);
-    plt.xlim(150, 200)
-    plt.ylabel("Channels")
-    plt.xlabel("Time (s)")
-    ```
+<summary>Python</summary>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">plt</span><span class="p">.</span><span class="nf">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">.</span><span class="nf">update</span><span class="p">({</span><span class="sh">'</span><span class="s">font.size</span><span class="sh">'</span><span class="p">:</span> <span class="mi">12</span><span class="p">})</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">rc</span><span class="p">(</span><span class="sh">'</span><span class="s">axes</span><span class="sh">'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">eventplot</span><span class="p">(</span><span class="n">raster</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="sh">'</span><span class="s">black</span><span class="sh">'</span><span class="p">,</span> <span class="n">linelengths</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.35</span><span class="p">);</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">xlim</span><span class="p">(</span><span class="mi">150</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">ylabel</span><span class="p">(</span><span class="sh">"</span><span class="s">Channels</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">xlabel</span><span class="p">(</span><span class="sh">"</span><span class="s">Time (s)</span><span class="sh">"</span><span class="p">)</span></code></pre></figure>
+
 </details>
 </section>
             </div><div class="search-results">
@@ -307,7 +315,7 @@ window.MathJax = {
 </script>
 
 
-                        <a href="/jekyll/2023-01-03-Spike-Sorting.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 3- Spike Sorting">
+                        <a href="/jekyll/2023-01-03-Spike-Sorting.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 3 - Spike Sorting">
                             <i class="fa fa-angle-left"></i>
                         </a>
                     
@@ -429,7 +437,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2023-12-19 16:07:05 -0500"
+        "time": "2023-12-19 17:37:00 -0500"
     },
     "basePath": "",
     "book": {
