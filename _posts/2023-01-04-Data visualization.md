@@ -46,7 +46,7 @@ Are you trying to convey differences between the distribution of two groups? Cha
 
 # Examples
 ## Creating raster plots
-![img](../../../_posts/img/raster.png)
+![img](img/raster.png)
 <details>
 <summary>Python</summary>
 {% highlight python %}

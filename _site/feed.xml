@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T17:37:00-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JMT Lab FAQ</title><subtitle>Offload the brain.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-19T23:25:09-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">JMT Lab FAQ</title><subtitle>Lab Handbook
 </subtitle><author><name>Kartik Pradeepan</name></author><entry><title type="html">6 - Making and presenting posters</title><link href="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html" rel="alternate" type="text/html" title="6 - Making and presenting posters" /><published>2023-01-06T00:00:00-05:00</published><updated>2023-01-06T00:00:00-05:00</updated><id>http://localhost:4000/jekyll/Making%20and%20presenting%20posters</id><content type="html" xml:base="http://localhost:4000/jekyll/2023-01-06-Making-and-presenting-posters.html"><![CDATA[<h1 id="what-is-the-purpose-of-an-academic-poster">What is the purpose of an academic poster?</h1>
 <blockquote>
   <p>“This is basically your paper.”<br />
@@ -116,7 +116,7 @@ Are you trying to convey differences between the distribution of two groups? Cha
 
 <h1 id="examples">Examples</h1>
 <h2 id="creating-raster-plots">Creating raster plots</h2>
-<p><img src="../../../_posts/img/raster.png" alt="img" /></p>
+<p><img src="img/raster.png" alt="img" /></p>
 <details>
 <summary>Python</summary>
 
